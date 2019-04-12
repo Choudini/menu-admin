@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu>
+	<!--MENU ADMIN Atensis 2.49 MJ-->
+
+<item type="static" label="&lt;b&gt;» Menu Admin Atensis MJ&lt;b&gt;"/>
+
+	<item type="menu" label="&lt;font color='#00F018'&gt;» Events&lt;/font&gt;">
+	
+	<item type="sendChat" label="Event Hunger Games" command=".a Bonsoir ! Un event Hunger-Games va avoir lieu, si vous voulez participer il suffit de me mp ! /w %p"/>
+	<item type="sendChat" label="Event 2v2" command=".a Bonsoir ! Un event 2v2 va avoir lieu dans 30 minutes, si vous voulez participer il suffit de me mp vos classes ! /w %p Les classes ne pouvant être ensemble : Sacrieur, Eniripsa, Osamodas, Ouginak, Zobal, Feca. Les inscriptions seront finies dans 25 minutes!"/>
+	<item type="sendChat" label="Event 3v3" command=".a Bonsoir ! Un event 3v3 va avoir lieu dans 35 minutes, si vous voulez participer il suffit de me mp vos classes ! /w %p Les classes ne pouvant être ensemble : Sacrieur, Eniripsa, Osamodas, Ouginak, Zobal, Feca. Les inscriptions seront finies dans 30 minutes!"/>
+	<item type="sendChat" label="Event Carnage" command=".a Bonsoir ! Un event Carnage va avoir lieu, si vous voulez participer il suffit de me mp ! /w %p"/>
+	
+	
+	</item>
+	<!-- Exemple de cliquez ici. (remplacer le lien)
+	//cliquez &lt;a href='https://forms.gle/sYdnNq4YMqnvYXVNA'&gt;&lt;b&gt;&lt;u&gt;ici&lt;/u&gt;&lt;/b&gt;&lt;/a&gt;
+	-->
+	
+	<item type="static" label="&lt;b&gt;» tp &lt;b&gt;"/>
+
+
+	<item type="sendChat" label="» Namego (faire venir)" command=".namego %p"/>
+	<item type="sendChat" label="» Goname (aller à)" command=".goname %p"/>
+	
+	
+
+		
+		<item type="static" label="» Sanctions Diverses"/>
+		
+		
+                    <item type="menu" label="&lt;font color='#00ABA5'&gt;» Mute  &lt;/font&gt;">
+
+			<item type="batch" label="» 30 Minutes"> 
+				<item type="sendChat" label="Mute 30 minutes" command="/w %p Vous êtes mute 30 minutes pour infraction au règlement."/>
+				<item type="sendChat" label="Mute 30 minutes" command=".mute %p 30 "/>
+				<item type="sendChat" label="Mute 30 minutes" command="/q %p mute 30 minutes pour infraction au règlement."/>
+			</item>
+						<item type="batch" label="» 1 heure"> 
+				<item type="sendChat" label="Mute 30 minutes" command="/w %p Vous êtes mute 1heure pour infraction au règlement."/>
+				<item type="sendChat" label="Mute 30 minutes" command=".mute %p 60"/>
+				<item type="sendChat" label="Mute 30 minutes" command="/q %p mute 1heure pour infraction au règlement."/>
+			</item>
+		</item>
+		
+		
+
+	
+
+
+
+	<item type="static" label="&lt;b&gt;» Téléportation&lt;b&gt;"/>
+	<item type="menu" label="&lt;font &gt;» Téléportation &lt;/font&gt;">
+	<item type="sendChat" label="» Pyramide Saharach" command=".teleport 175114244 %p" />
+	<item type="sendChat" label="» Dragon Feudala" command=".teleport 171180038 %p" />
+	<item type="sendChat" label="» Salle Ivoirine" command=".teleport 160433152 %p" />
+	<item type="sendChat" label="» Incarnam Queue du Dragon" command=".teleport 122683905 %p" />
+	<item type="sendChat" label="» Boufbawl Bonta" command=".teleport 74186754 %p" />
+	<item type="sendChat" label="» Plateau Verdoyant" command=".teleport 175112194 %p" />
+	<item type="sendChat" label="» Territoire Cacterre" command=".teleport 175112192 %p" />
+	<item type="sendChat" label="» Arène Bonta" command=".teleport 4981250 %p" />
+	<item type="sendChat" label="» Prison Astrub" command=".teleport 83892224 %p 233"/>
+	<item type="sendChat" label="» Ville Submergée" command=".teleport 169083906 %p" />
+    <item type="sendChat" label="» Map dimmenssion eca" command=".teleport 162004992 %p"/>
+    <item type="sendChat" label="» Map eca" command=".teleport 162267142 %p"/>
+	<item type="sendChat" label="» Abyss sufokia" command=".teleport 169083904 %p"/>
+	<item type="sendChat" label="» Trône de la Cour Sombre" command=".teleport 137101312 %p"/>
+	<item type="sendChat" label="» Arène bonta" command=".teleport 4981249 %p"/>
+	<item type="sendChat" label="» Arène brakmar terrain boufball" command=".teleport 74187778 %p"/>
+	<item type="sendChat" label="» Pvp 1vs1 event" command=".teleport 77336065 %p"/>
+
+	</item>
+		<item type="menu" label="» map tournoi des Dix Ans">
+	<item type="sendChat" label="1C" command=".go 113511937 %p"/>
+	<item type="sendChat" label="1D" command=".go 113508868 %p"/>
+	<item type="sendChat" label="1F" command=".go 113511940 %p"/>
+	<item type="sendChat" label="1I" command=".go 113511943 %p"/>
+	<item type="sendChat" label="1J" command=".go 113508874 %p"/>
+	<item type="sendChat" label="1K" command=".go 113510410 %p"/>
+	
+	</item>
+<item type="static" label="&lt;b&gt;» Reload&lt;b&gt;"/>
+ <item type="loadXML" label="&lt;font color='#00ffff'&gt;» Reload XML&lt;/font&gt;"/>
+</menu>

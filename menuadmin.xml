@@ -11,7 +11,6 @@
 	<item type="sendChat" label="» Namego (faire venir)" command=".namego %p"/>
 	<item type="sendChat" label="» Goname (aller à)" command=".goname %p"/>
 	<item type="sendChat" label="» Invi" command=".invisible %p"/>
-	<item type="sendChat" label="demute" command=".unmute %p"/>
 
 							<item type="static" label="» Sanctions Diverses"/>
 								
@@ -29,7 +28,7 @@
 				</item>
 				
 				</item>
-				<item type="sendChat" label="demute" command=".unmute %p"/>
+				<item type="sendChat" label="» demute" command=".unmute %p"/>
 			<item type="static" label="&lt;b&gt;» Téléportation&lt;b&gt;"/>
 		<item type="menu" label="&lt;font &gt;» Téléportation &lt;/font&gt;">
 	<item type="sendChat" label="» Pyramide Saharach" command=".teleport 175114244 %p" />
